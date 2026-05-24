@@ -1,4 +1,4 @@
-# Tourism Mining: Aligning Sentiment & Topic Representations of Sentence Transformer Embeddings for Tourism Opinion Mining
+# Tourism Mining: On the Promise of Specialized Opinion Mining Sentence Transformers with TourCSE
 
 ![file](TourCSE.png)
 
@@ -46,10 +46,10 @@ python pipeline_eval_embeddings.py
 
 ### Visualization
 
-To generate the overall sentiment visualization (Figure 5, top), run:
+To generate the overall sentiment visualization (Figure 4a), run:
 ```sh
 python pipeline_generate_tsne_stars.py
 ```
 
-- Figure5.ipynb and Figure15.ipynb reproduce the visualizations used in the paper.
-- bertopic/ contains the HTML output of BERTopic corresponding to Figure 15.
+- Figure_4(b/c).ipynb and BERTopic.ipynb reproduce the visualizations used in the paper.
+- bertopic/ contains the HTML output of BERTopic vizualisation (Figure 2).
