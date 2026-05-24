@@ -1,4 +1,4 @@
-# Tourism Mining: On the Promise of Specialized Opinion Mining Sentence Transformers with TourCSE
+# Tourism Mining: On the Promise of Specialized Opinion Mining Sentence Transformers for Corpus Exploration with TourCSE
 
 ![file](TourCSE.png)
 
