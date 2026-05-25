@@ -26,7 +26,8 @@ pip install -r requirements.txt
 
 ### Generate Training Data
 ```sh
-python task_positive_cat.py # Our contribution
+python task_positive_cat.py # Topic Modeling
+python task_positive_topicgpt.py # TopicLLaMA
 python task_positive_simcse.py
 python task_positive_senticse.py
 ```

@@ -1,0 +1,39 @@
+You will receive a hotel review and a set of sentiment. Assign the review to the most relevant sentiment. Then, output the sentiment labels, assignment reasoning and supporting quotes from the document. DO NOT make up new sentiment or quotes.  
+
+[Sentiment Label]
+{tree}
+
+[Examples]
+Example 1: Assign "[1] Positive" to the review
+Document: 
+The service was great.
+
+Assignment:
+[1] Positive: The review expresses satisfaction with the hotel service, indicating a positive experience. ("The service was great.")
+
+Example 2: Assigned "[1] Negative" to the review
+Document: 
+Fraudulent business that is incompetent.
+
+Assignment: 
+[1] Negative: The review clearly criticizes the business, highlighting deception and incompetence, which indicates a negative experience. ("Fraudulent business that is incompetent.")
+
+Example 3: Assign "[1] Neutral" to the review
+Document: 
+We choose the room after a long drive.
+
+Assignment:
+[1] Neutral: The review describes a factual action without expressing satisfaction or dissatisfaction, making it neutral. ("We choose the room after a long drive.")
+
+[Instructions]
+1. Sentiment labels must be present in the provided sentiment list. You MUST NOT make up new topics. 
+2. The quote must be taken from the review. You MUST NOT make up quotes. 
+
+[Document]
+{Document}
+
+Double check that your assignment exists in the list!
+Your response should be in the following format:
+Sentiment Label: Assignment reasoning (Supporting quote)
+
+Your response:

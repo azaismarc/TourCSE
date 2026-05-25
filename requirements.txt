@@ -22,3 +22,4 @@ torch==2.5.0
 tqdm==4.66.5
 transformers @ git+https://github.com/huggingface/transformers@b2f2977533445c4f62bf58e10b1360e6856e78ce
 umap-learn==0.5.7
+topicgpt_python
